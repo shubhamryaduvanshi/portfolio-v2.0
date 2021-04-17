@@ -1927,7 +1927,258 @@ text-align: center;
         text-align: center;
     }
 }
+/*------------------------------------MEDIA QUERY FOR 401PX-------------------------------------------*/
+@media screen and (max-width:401px){    
+    .menu{
+        height: 100vh;
+        width: 180px;
+  
+    }
+    .menu img{
+        margin:20px 8px;      
+    }
+    .menu h3{
+        margin:0;
+        font-size: 1.15em;
+    }
+    .menu h2{
+        font-size: 1.2em;
+    }
+    .menu nav{
+        margin-top: 10px;
+        line-height: 38px;
+    }
+    .menu nav ul{
+    font-size: 1.2em;
+    }
+    .right{
+       height: 100vh;
+        width: auto;
+      
+       margin-left:0px;
+    }
+    .titles{
+        margin-left: 20px;
+        margin-top: 50px;
+        font-size: 2.5em;
+    }
+     .profilepage{
+        height: 90vh;
+       
+       
+        transform: translateY(220px);
+    }
+    .profilepage h1{
+        font-size: 2.5em;
+        line-height: 20px;
+        padding-left:26px;
+    }
+    .profilepage  #belowtitle{
+        padding-left: 26px;
+        font-size: 1.23em;
+    }
+    .profilepage .btn{
+        margin-left: 30px;
+        height: 30px;
+        width: 130px;
+        border-radius: 0;
 
+    }
+     .about{
+         height: auto;
+         background-color: rgba(202, 26, 26, 0.445);
+         padding-bottom:50px;
+       
+        }
+    .about #about{
+        text-align: justify;
+    }
+    .about #abtcontent{
+        width: fit-content;
+        font-size:1em;
+        padding-left: 30px;
+        padding-right: 35px;
+        text-align: justify;
+        word-spacing: 0px;
+        margin-left: -20px;
+        line-height: 25px;
+    }
+    
+    .about .gridboxes{
+        margin-left: 50px;
+        grid-template-columns: 300px ;
+        grid-template-rows: auto auto auto;
+        grid-gap:15px;
+       
+    }
+   
+    .about  .fa-code{
+        font-size: 3em;
+        margin-left: 120px;
+    }
+    .about  .fa-connectdevelop{
+        font-size: 3em;
+        margin-left: 120px;
+    }
+    .about  .fa-desktop{
+        font-size: 3em;
+        margin-left: 120px;
+    }
+    .about .items h4{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .about #itemcontent{
+        padding:0 10px;
+        text-align: justify;
+        font-size: 1.1em;
+        padding:  10px;
+    }
+
+    .qualification{
+       height: auto; 
+       margin-bottom: 20px;
+    }
+    .qualification .qualifications{
+        margin-top: 0px;
+        margin-left: 100px;
+        display:grid;
+        grid-template-columns: 180px ;
+        grid-template-rows: auto auto auto;
+        grid-gap: 30px;
+    }
+    .qualification .qualifications .edu{
+        border: 1.5px solid crimson;
+        padding:5px;
+        border-radius: 5px;
+        text-align:center;
+    }
+    .qualification .qualifications .edu #edutitle{
+        font-size: 1.2em;
+        padding-bottom: 10px;
+    } 
+    .skills{
+        width: auto;
+        padding-top: 0px;
+        padding-left: 10px;
+        height: 80vh;
+        padding-bottom: 80px;
+    }  
+    .skill{
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 80px 80px 80px 80px;
+        grid-template-rows: 120px 120px 135px;
+        grid-gap: 10px;
+    }    
+
+    .skill .skillicon{
+        width:70px;
+        height:80px;
+    }
+    .projects{
+        height: auto;
+        margin-left: -30px;
+        margin-bottom: 50px;
+    }
+    .projects .projecttitle{
+        padding-left: 20px;
+        color: crimson;
+    }
+    .projects .projectcontainer{
+        padding-left: 40px;
+        display: grid;
+        grid-template-columns: 180px 180px;
+        grid-template-rows:200px 200px 200px;
+        grid-gap: 10px;
+      
+    }
+    .projects .projectcontainer img{
+        height: 150px;
+        width: 175px;
+    }
+    .contact{
+        height: auto;
+    }
+    .contact #conttitle{
+        padding-top: 70px;
+
+    }
+    .contact .contactcontainer{
+        height: auto;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: .5fr 0.5fr;
+        grid-gap: 10px;
+     
+    }
+    .contact .contactcontainer .formbox{
+       width: 350px;
+       margin-left: -5px;
+        padding:10px 5px 30px 10px;
+
+    }
+
+    .contact .contactcontainer .formbox .input{
+        padding: 8px 10px;
+        font-size:15px;
+        width:320px;
+        border-radius: 5px;
+        border:none;
+    }
+
+    .contact .contactcontainer .socialbox{
+     width:auto;
+     height: 45vh;
+     margin-left: 10px;
+    }
+    .contact .contactcontainer .socialbox .haveaquestion{
+        margin-left: -10px;
+        text-align: justify;
+        font-size: 18px;
+        color: white;
+        font-weight: 500;
+    }
+    .contact .contactcontainer .socialbox .social-menu{
+        margin-left: -30px;
+    }
+    .contact .contactcontainer .socialbox .social-menu ul{
+        padding:0px;
+        margin:0 4%;
+        display:flex;
+
+    }
+    .contact .contactcontainer .socialbox .phoneno{
+        margin-top: 50px;
+        margin-left: 100px;
+        width: fit-content;
+        padding: 8px 15px;
+        font-size: 20px;
+        color: white;
+        border-radius: 5px;
+        background-color: crimson;
+        border:none;
+    }
+    .contact .contactcontainer .socialbox .myemail{
+        margin-top: 20px;
+        margin-left: 50px;
+        width: fit-content;
+        padding: 8px 15px;
+        font-size: 20px;
+        color: white;
+        background-color: crimson;
+        border:none;
+        border-radius: 5px;
+    }
+    .contact #copyright{
+        width:auto;
+        background-color: crimson;
+        padding:15px 10px;
+        color:white;
+        font-size: .8em;
+        text-align: center;
+    }
+}
 
 
 /*------------------------------------MEDIA QUERY FOR 375PX-------------------------------------------*/
