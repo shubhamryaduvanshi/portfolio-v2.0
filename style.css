@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 /*------------------applied grid in this class----------*/
 .container{
     display: grid;
@@ -34,7 +35,7 @@ body{
     font-size: 1.6em;
     font-weight: 50;
     letter-spacing: 1px;
-    color:rgb(241, 152, 110);
+    color:(rgb(145, 142, 142) 10%,rgb(70, 68, 68) 90%);
 }
 .menu h2{
     color: white;
@@ -116,10 +117,11 @@ padding-right: 20px;
 
 /*-----------------------------------About Page-------------------------------*/
  .about{
-     margin-top: 50px;
-     background-color: rgba(202, 26, 26, 0.445);
+     margin-top: 0px;
+     background:radial-gradient(rgb(145, 142, 142) 10%,rgb(70, 68, 68) 90%);
     }
 .about #about{
+    padding-top: 50px;
     color: white;
 }
 .about #whoami{
@@ -212,7 +214,7 @@ padding-right: 20px;
 /*-----------------------------------Skills Page-------------------------------*/
 
 .skills{
-    background-color: rgba(202, 26, 26, 0.445);
+    background:radial-gradient(rgb(145, 142, 142) 10%,rgb(70, 68, 68) 90%);
     
     padding-top: 10px;
 }
@@ -286,7 +288,7 @@ padding-top: 25px;
 }
 /*-----------------------------------Contact Page-------------------*/
 .contact{
-    background-color: rgba(202, 26, 26, 0.445);
+    background:radial-gradient(rgb(145, 142, 142) 10%,rgb(70, 68, 68) 90%);
     height: 80vh;
     width: 80%;
 }
@@ -478,17 +480,12 @@ text-align: center;
         height: 80vh;
         transform: translateY(220px);
     }
-    .btn:hover{
-        background-color: crimson;
-        color:white;
-        transition: .5s ease-in;
-    }
+ 
 
      .about{
         width: auto;
         height: auto;
          margin-top: 50px;
-         background-color: rgba(202, 26, 26, 0.445);
          padding-bottom:50px ;
         }
     .about #about{
@@ -510,9 +507,7 @@ text-align: center;
         grid-gap:50px;
     }
     .about .items{
-        background-color: rgba(255,255,255,0.5);
         border-radius: 12px;
-        color: black;
     }
     .about  .fa-code{
         font-size: 4em;
@@ -535,24 +530,10 @@ text-align: center;
         text-align: justify;
         font-size: 1.25em;
     }
-    .about .items:hover{
-        background-color: crimson;
-        color: white;
-        transition: 0.75s ease-out;
-    }
-    .gridboxes .items.item1{
-    }
-    .gridboxes .items.item2{  
-    }
-    .gridboxes .items.item3{   
-    }
 
     .qualification{
         max-height: 600px;
         width: auto;
-    }
-    .qualification .qualificationtitle{
-        color:crimson;
     }
     .qualification .qualifications{
         margin-top: 90px;
@@ -563,17 +544,14 @@ text-align: center;
         grid-gap: 90px;
     }
     .qualification .qualifications .edu{
-        border: 1.5px solid crimson;
         padding: 10px 20px;
         border-radius: 5px;
         text-align:center;
     }
     .qualification .qualifications .edu #edutitle{
-        color: crimson;
         font-weight: 800;
         font-size: 1.2em;
         padding-bottom: 15px;
-        border-bottom: 2px solid crimson;
     }
     .skill{
         width: 90%;
@@ -584,9 +562,6 @@ text-align: center;
     
     .projects{
         margin-bottom: 50px;
-    }
-    .projects .projecttitle{
-        color: crimson;
     }
     .projects .projectcontainer{
         
@@ -600,7 +575,6 @@ text-align: center;
  
 
     .contact{
-        background-color: rgba(202, 26, 26, 0.445);
         height: 80vh;
         width: 80%;
     }
@@ -633,7 +607,6 @@ text-align: center;
     .contact .contactcontainer .socialbox .haveaquestion{
         text-align: center;
         font-size: 22px;
-        color: white;
         font-weight: 500;
     }
     .contact .contactcontainer .socialbox .social-menu ul{
@@ -649,9 +622,7 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
         border-radius: 5px;
-        background-color: crimson;
         border:none;
     }
     .contact .contactcontainer .socialbox .myemail{
@@ -660,16 +631,12 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
-        background-color: crimson;
         border:none;
         border-radius: 5px;
     }
     .contact #copyright{
         width:auto;
-    background-color: crimson;
     padding:15px 10px;
-    color:white;
     font-size: 0.8em;
     text-align: center;
     }
@@ -717,16 +684,9 @@ text-align: center;
         width: auto;
         transform: translateY(220px);
     }
-    .btn:hover{
-        background-color: crimson;
-        color:white;
-        transition: .5s ease-in;
-    }
-
-     .about{
+       .about{
         width: 720px;
         height: auto;
-         background-color: rgba(202, 26, 26, 0.445);
          padding-bottom:50px ;
         }
     .about #about{
@@ -747,11 +707,7 @@ text-align: center;
         margin-top: 50px;
         grid-gap:15px;
     }
-    .about .items{
-        background-color: rgba(255,255,255,0.5);
-        border-radius: 12px;
-        color: black;
-    }
+
     .about  .fa-code{
         font-size: 4em;
         margin-left: 70px;
@@ -773,19 +729,10 @@ text-align: center;
         text-align: justify;
         font-size: 1.1em;
     }
-    .about .items:hover{
-        background-color: crimson;
-        color: white;
-        transition: 0.75s ease-out;
-    }
-
     .qualification{
         width: 720px;
         max-height: 400px;
  
-    }
-    .qualification .qualificationtitle{
-        color:crimson;
     }
     .qualification .qualifications{
         margin-top: 90px;
@@ -796,20 +743,16 @@ text-align: center;
         grid-gap: 10px;
     }
     .qualification .qualifications .edu{
-        border: 1.5px solid crimson;
         padding: 10px 20px;
         border-radius: 5px;
         text-align:center;
     }
     .qualification .qualifications .edu #edutitle{
-        color: crimson;
         font-weight: 800;
         font-size: 1.2em;
         padding-bottom: 15px;
-        border-bottom: 2px solid crimson;
     } 
     .skills{
-        background-color: rgba(202, 26, 26, 0.445);
         width: 720px;
         padding-top: 10px;
         height: auto;
@@ -823,9 +766,6 @@ text-align: center;
     
     .projects{
         margin-bottom: 50px;
-    }
-    .projects .projecttitle{
-        color: crimson;
     }
     .projects .projectcontainer{
         height: auto;
@@ -843,13 +783,11 @@ text-align: center;
  
 
     .contact{
-        background-color: rgba(202, 26, 26, 0.445);
         height:auto;
         width: 720px;
     }
     .contact #conttitle{
         padding-top: 70px;
-        color: white;
     }
     .contact .contactcontainer{
         height: auto;
@@ -876,7 +814,6 @@ text-align: center;
     .contact .contactcontainer .socialbox .haveaquestion{
         text-align: justify;
         font-size: 22px;
-        color: white;
         font-weight: 500;
     }
     .contact .contactcontainer .socialbox .social-menu ul{
@@ -890,9 +827,7 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
         border-radius: 5px;
-        background-color: crimson;
         border:none;
     }
     .contact .contactcontainer .socialbox .myemail{
@@ -901,16 +836,12 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
-        background-color: crimson;
         border:none;
         border-radius: 5px;
     }
     .contact #copyright{
         width:698px;
-        background-color: crimson;
         padding:15px 10px;
-        color:white;
         font-size: 0.8em;
         text-align: center;
     }
@@ -965,16 +896,9 @@ text-align: center;
         line-height: 60px;
         padding-left: 45px;
     }
-    .btn:hover{
-        background-color: crimson;
-        color:white;
-        transition: .5s ease-in;
-    }
-
-     .about{
+       .about{
         width: 582px;
         height: auto;
-         background-color: rgba(202, 26, 26, 0.445);
          padding-bottom:50px ;
         }
     .about #about{
@@ -994,11 +918,6 @@ text-align: center;
         margin-left: 52px;
         margin-top: 50px;
         grid-gap:35px;
-    }
-    .about .items{
-        background-color: rgba(255,255,255,0.5);
-        border-radius: 12px;
-        color: black;
     }
     .about  .fa-code{
         font-size: 4em;
@@ -1021,19 +940,10 @@ text-align: center;
         text-align: justify;
         font-size: 1.1em;
     }
-    .about .items:hover{
-        background-color: crimson;
-        color: white;
-        transition: 0.75s ease-out;
-    }
-
     .qualification{
         width: 582px;
         max-height: 400px;
  
-    }
-    .qualification .qualificationtitle{
-        color:crimson;
     }
     .qualification .qualifications{
         margin-top: 60px;
@@ -1044,20 +954,16 @@ text-align: center;
         grid-gap: 10px;
     }
     .qualification .qualifications .edu{
-        border: 1.5px solid crimson;
         padding: 10px 10px;
         border-radius: 5px;
         text-align:center;
     }
     .qualification .qualifications .edu #edutitle{
-        color: crimson;
         font-weight: 800;
         font-size: 1.2em;
         padding-bottom: 15px;
-        border-bottom: 2px solid crimson;
     } 
     .skills{
-        background-color: rgba(202, 26, 26, 0.445);
         width: 582px;
         padding-top: 10px;
         height: auto;
@@ -1077,9 +983,6 @@ text-align: center;
         height: auto;
         margin-bottom: 50px;
     }
-    .projects .projecttitle{
-        color: crimson;
-    }
     .projects .projectcontainer{
         height: auto;
         padding: 20px 60px;
@@ -1096,14 +999,12 @@ text-align: center;
  
 
     .contact{
-        background-color: rgba(202, 26, 26, 0.445);
         height:auto;
         width: 582px;
         
     }
     .contact #conttitle{
         padding-top: 70px;
-        color: white;
     }
     .contact .contactcontainer{
         height: auto;
@@ -1132,7 +1033,6 @@ text-align: center;
         margin-left: 30px;
         text-align: justify;
         font-size: 22px;
-        color: white;
         font-weight: 500;
     }
     .contact .contactcontainer .socialbox .social-menu ul{
@@ -1146,9 +1046,7 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
         border-radius: 5px;
-        background-color: crimson;
         border:none;
     }
     .contact .contactcontainer .socialbox .myemail{
@@ -1157,16 +1055,14 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
-        background-color: crimson;
+      
+
         border:none;
         border-radius: 5px;
     }
     .contact #copyright{
         width:698px;
-        background-color: crimson;
         padding:15px 10px;
-        color:white;
         font-size: 0.8em;
         text-align: center;
     }
@@ -1235,16 +1131,9 @@ text-align: center;
         width: 150px;
         font-size: 1.01em;
     }
-    .btn:hover{
-        background-color: crimson;
-        color:white;
-        transition: .5s ease-in;
-    }
-
      .about{
      
         height: auto;
-         background-color: rgba(202, 26, 26, 0.445);
          padding-bottom:50px ;
         }
     .about #about{
@@ -1298,7 +1187,6 @@ text-align: center;
         grid-gap: 50px;
     }
     .qualification .qualifications .edu{
-        border: 1.5px solid crimson;
         padding: 10px 10px;
         border-radius: 5px;
         text-align:center;
@@ -1310,7 +1198,7 @@ text-align: center;
     .skills{
         width: auto;
         padding-top: 0px;
-        padding-left: 20px;
+        padding-left:10px;
         height: 80vh;
         padding-bottom: 50px;
     }  
@@ -1319,7 +1207,7 @@ text-align: center;
         grid-template-columns: 100px 100px 100px 100px;
         grid-template-rows: 120px 120px 135px;
         grid-gap: 10px;
-
+        margin-left: 10px;
     }    
 
     .skill .skillicon{
@@ -1333,7 +1221,6 @@ text-align: center;
     }
     .projects .projecttitle{
         padding-left: 20px;
-        color: crimson;
     }
     .projects .projectcontainer{
         padding: 20px 40px;
@@ -1398,258 +1285,9 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
+  
         border-radius: 5px;
-        background-color: crimson;
-        border:none;
-    }
-    .contact .contactcontainer .socialbox .myemail{
-        margin-top: 20px;
-        margin-left: 70px;
-        width: fit-content;
-        padding: 8px 15px;
-        font-size: 20px;
-        color: white;
-        background-color: crimson;
-        border:none;
-        border-radius: 5px;
-    }
-    .contact #copyright{
-        width:auto;
-        background-color: crimson;
-        padding:15px 10px;
-        color:white;
-        font-size: 0.8em;
-        text-align: justify;
-    }
-}
-
-
-@media screen and (max-width:540px){    
-    .container{
-        display: grid;
-        overflow: hidden;
-        grid-template-columns:1fr ;
-        grid-template-rows: auto auto auto auto auto auto ;
-    }
-    .menu{
-        height: 100vh;
-        width: 180px;
-     display: none;
-    }
-    .menu img{
-        margin:20px 8px;      
-    }
-    .menu h3{
-        margin:0;
-        font-size: 1.15em;
-    }
-    .menu h2{
-        font-size: 1.2em;
-    }
-    .menu nav{
-        margin-top: 10px;
-        line-height: 38px;
-    }
-    .menu nav ul{
-    font-size: 1.2em;
-    }
-    .right{
-       height: 100vh;
-        width: 480px;
-       overflow: hidden;
-       margin-left:0px;
-    }
-    .titles{
-        margin-left: 20px;
-        margin-top: 50px;
-        font-size: 2.5em;
-    }
-     .profilepage{
-        height: 90vh;
-       
-       
-        transform: translateY(220px);
-    }
-    .profilepage h1{
-        font-size: 2.8em;
-        line-height: 20px;
-        padding-left:45px;
-    }
-    .profilepage  #belowtitle{
-        padding-left: 45px;
-        margin: 0 0 20px 0;
-        font-size: 1.43em;
-    }
-    .profilepage .btn{
-        margin-left: 50px;
-        height: 40px;
-        width: 150px;
-        font-size: 1.01em;
-    }
-    .btn:hover{
-        background-color: crimson;
-        color:white;
-        transition: .5s ease-in;
-    }
-
-     .about{
-        
-        height: auto;
-         background-color: rgba(202, 26, 26, 0.445);
-         padding-bottom:50px ;
-        }
-    .about #about{
-        text-align: justify;
-    }
-    .about #abtcontent{
-        font-size: 1em;
-        word-spacing: 2px;
-        margin-left: 30px;
-        line-height: 25px;
-    }
     
-    .about .gridboxes{
-        grid-template-columns: 220px 220px;
-        grid-template-rows: 300px 300px;
-        grid-gap:15px;
-    }
-   
-    .about  .fa-code{
-        font-size: 4em;
-        margin-left: 80px;
-    }
-    .about  .fa-connectdevelop{
-        font-size: 4em;
-        margin-left: 80px;
-    }
-    .about  .fa-desktop{
-        font-size: 4em;
-        margin-left: 80px;
-    }
-    .about .items h4{
-        text-align: center;
-        font-size: 1.5em;
-    }
-    .about #itemcontent{
-        padding:0 10px;
-        text-align: justify;
-        font-size: 1.1em;
-    }
-
-    .qualification{
-        max-height: 600px;
-    }
-    .qualification .qualifications{
-        margin-top: 60px;
-        margin-left: 50px;
-        display:grid;
-        grid-template-columns: 180px 180px;
-        grid-template-rows: auto auto;
-        grid-gap: 50px;
-    }
-    .qualification .qualifications .edu{
-        border: 1.5px solid crimson;
-        padding: 10px 10px;
-        border-radius: 5px;
-        text-align:center;
-    }
-    .qualification .qualifications .edu #edutitle{
-        font-size: 1.2em;
-        padding-bottom: 15px;
-    } 
-    .skills{
-        padding-top: 0px;
-        height: 80vh;
-        padding-bottom: 50px;
-    }  
-    .skill{
-         margin: 0;
-        display: grid;
-        grid-template-columns: 100px 100px 100px 100px;
-        grid-template-rows: 120px 120px 135px;
-        grid-gap: 10px;
-
-    }    
-    .skill .skillicon{
-        width: 80px;
-        height:80px;
-    }
-    .projects{
-        height: auto;
-        margin-left: -30px;
-        margin-bottom: 50px;
-    }
-    .projects .projecttitle{
-        padding-left: 20px;
-        color: crimson;
-    }
-    .projects .projectcontainer{
-        padding: 20px 40px;
-        display: grid;
-        grid-template-columns: 190px 190px;
-        grid-template-rows:200px 200px 200px;
-        grid-gap: 50px;
-      
-    }
-    .projects .projectcontainer img{
-        height: 150px;
-        width: 185px;
-    }
-    .contact{
-        height: auto;
-    }
-    .contact #conttitle{
-        padding-top: 70px;
-
-    }
-    .contact .contactcontainer{
-        height: auto;
-        display: grid;
-        margin-left: 50px;
-        grid-template-columns:1fr;
-        grid-template-rows: .5fr 0.5fr;
-        grid-gap: 10px;
-     
-    }
-    .contact .contactcontainer .formbox{
-        margin-left: -15px;
-    }
-
-    .contact .contactcontainer .formbox .input{
-        padding: 8px 10px;
-        font-size:15px;
-        width:350px;
-        border-radius: 5px;
-        border:none;
-    }
-
-    .contact .contactcontainer .socialbox{
-     width: 525;
-     height: 45vh;
-     margin-left: 10px;
-    }
-    .contact .contactcontainer .socialbox .haveaquestion{
-        margin-left: 0px;
-        text-align: justify;
-        font-size: 22px;
-        color: white;
-        font-weight: 500;
-    }
-    .contact .contactcontainer .socialbox .social-menu ul{
-        padding:0;
-        margin:0 8%;
-        display:flex;
-    }
-    .contact .contactcontainer .socialbox .phoneno{
-        margin-top: 50px;
-        margin-left: 120px;
-        width: fit-content;
-        padding: 8px 15px;
-        font-size: 20px;
-        color: white;
-        border-radius: 5px;
-        background-color: crimson;
         border:none;
     }
     .contact .contactcontainer .socialbox .myemail{
@@ -1658,20 +1296,19 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
-        background-color: crimson;
+ 
+
         border:none;
         border-radius: 5px;
     }
     .contact #copyright{
         width:auto;
-        background-color: crimson;
         padding:15px 10px;
-        color:white;
         font-size: 0.8em;
         text-align: justify;
     }
 }
+
 
 /*------------------------------------MEDIA QUERY FOR 425PX-------------------------------------------*/
 @media screen and (max-width:425px){    
@@ -1737,7 +1374,6 @@ text-align: center;
     }
      .about{
          height: auto;
-         background-color: rgba(202, 26, 26, 0.445);
          padding-bottom:50px;
        
         }
@@ -1799,7 +1435,6 @@ text-align: center;
         grid-gap: 30px;
     }
     .qualification .qualifications .edu{
-        border: 1.5px solid crimson;
         padding:5px;
         border-radius: 5px;
         text-align:center;
@@ -1833,7 +1468,6 @@ text-align: center;
     }
     .projects .projecttitle{
         padding-left: 20px;
-        color: crimson;
     }
     .projects .projectcontainer{
         padding: 20px 40px;
@@ -1884,7 +1518,6 @@ text-align: center;
         margin-left: -10px;
         text-align: justify;
         font-size: 22px;
-        color: white;
         font-weight: 500;
     }
     .contact .contactcontainer .socialbox .social-menu{
@@ -1902,9 +1535,7 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
         border-radius: 5px;
-        background-color: crimson;
         border:none;
     }
     .contact .contactcontainer .socialbox .myemail{
@@ -1913,20 +1544,16 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
-        background-color: crimson;
-        border:none;
         border-radius: 5px;
     }
     .contact #copyright{
         width:auto;
-        background-color: crimson;
-        padding:15px 10px;
-        color:white;
         font-size: .8em;
         text-align: center;
     }
 }
+
+
 /*------------------------------------MEDIA QUERY FOR 401PX-------------------------------------------*/
 @media screen and (max-width:401px){    
     .menu{
@@ -1986,7 +1613,6 @@ text-align: center;
     }
      .about{
          height: auto;
-         background-color: rgba(202, 26, 26, 0.445);
          padding-bottom:50px;
        
         }
@@ -2048,7 +1674,6 @@ text-align: center;
         grid-gap: 30px;
     }
     .qualification .qualifications .edu{
-        border: 1.5px solid crimson;
         padding:5px;
         border-radius: 5px;
         text-align:center;
@@ -2083,7 +1708,6 @@ text-align: center;
     }
     .projects .projecttitle{
         padding-left: 20px;
-        color: crimson;
     }
     .projects .projectcontainer{
         padding-left: 40px;
@@ -2136,7 +1760,6 @@ text-align: center;
         margin-left: -10px;
         text-align: justify;
         font-size: 18px;
-        color: white;
         font-weight: 500;
     }
     .contact .contactcontainer .socialbox .social-menu{
@@ -2154,9 +1777,7 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
         border-radius: 5px;
-        background-color: crimson;
         border:none;
     }
     .contact .contactcontainer .socialbox .myemail{
@@ -2165,16 +1786,11 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
-        background-color: crimson;
         border:none;
         border-radius: 5px;
     }
     .contact #copyright{
         width:auto;
-        background-color: crimson;
-        padding:15px 10px;
-        color:white;
         font-size: .8em;
         text-align: center;
     }
@@ -2232,9 +1848,8 @@ text-align: center;
     }
      .about{
          height: auto;
-         background-color: rgba(202, 26, 26, 0.445);
          padding-bottom:50px;
-       
+        
         }
     .about #about{
         text-align: justify;
@@ -2243,19 +1858,17 @@ text-align: center;
         width:auto;
         font-size:1em;
         padding-left: 35px;
-        padding-right: 85px;
+        padding-right: 45px;
         text-align: justify;
         word-spacing: 0px;
         margin-left: -20px;
         line-height: 25px;
     }
-    
     .about .gridboxes{
         margin-left: 50px;
         grid-template-columns: 300px ;
         grid-template-rows: auto auto auto;
-        grid-gap:15px;
-       
+        grid-gap:15px;  
     }
 
     .about .items h4{
@@ -2265,11 +1878,8 @@ text-align: center;
     .about #itemcontent{
         padding:10px;
         text-align: justify;
-        font-size: 1.1em;
-       
+        font-size: 1.1em; 
     }
-
-    
     .skills{
         width: auto;
         padding-top: 0px;
@@ -2296,7 +1906,6 @@ text-align: center;
     }
     .projects .projecttitle{
         padding-left: 20px;
-        color: crimson;
     }
     .projects .projectcontainer{
         padding: 20px 90px;
@@ -2304,7 +1913,6 @@ text-align: center;
         grid-template-columns: 250px ;
         grid-template-rows:200px 200px 200px auto auto;
         grid-gap: 20px;
-      
     }
     .projects .projectcontainer img{
         height: 150px;
@@ -2355,7 +1963,6 @@ text-align: center;
         margin-left: 0px;
         text-align: justify;
         font-size: 18px;
-        color: white;
     }
     .contact .contactcontainer .socialbox .social-menu{
         margin-left: -10px;
@@ -2372,9 +1979,7 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
         border-radius: 5px;
-        background-color: crimson;
         border:none;
     }
     .contact .contactcontainer .socialbox .myemail{
@@ -2383,16 +1988,12 @@ text-align: center;
         width: fit-content;
         padding: 8px 15px;
         font-size: 20px;
-        color: white;
-        background-color: crimson;
         border:none;
         border-radius: 5px;
     }
     .contact #copyright{
         width:auto;
-        background-color: crimson;
         padding:15px 10px;
-        color:white;
         font-size: .8em;
         text-align: center;
     }
@@ -2461,7 +2062,6 @@ text-align: center;
     }
      .about{
          height: auto;
-         background-color: rgba(202, 26, 26, 0.445);
          padding-bottom:50px;
        
         }
@@ -2518,7 +2118,6 @@ text-align: center;
     }
     .projects .projecttitle{
         padding-left: 20px;
-        color: crimson;
     }
     .projects .projectcontainer{
         padding: 20px 35px;
@@ -2578,7 +2177,7 @@ text-align: center;
         margin-left: 0px;
         text-align: justify;
         font-size: 17px;
-        color: white;
+  
     }
     .contact .contactcontainer .socialbox .social-menu{
         margin-left:10px;
@@ -2588,7 +2187,6 @@ text-align: center;
         font-size:20px;
         line-height:35px;
         transition:0.6s;
-        color:white;
     }
     .social-menu ul li a{
         width:35px;
